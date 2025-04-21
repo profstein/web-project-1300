@@ -1,0 +1,12 @@
+/*Keep Images and video responsive*/
+img, video{
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+/*change the background color of the site*/
+body{
+    background-color: #38e4e4;
+}
