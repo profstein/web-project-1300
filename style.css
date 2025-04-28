@@ -1,12 +1,112 @@
 /*Keep Images and video responsive*/
-img, video{
+img,
+video {
 	max-width: 100%;
 	height: auto;
 }
 
-
-
-/*change the background color of the site*/
-body{
-    background-color: #38e4e4;
+figure {
+	margin: 0;
 }
+
+/* change the background color of the site */
+body {
+	background-color: #38e4e4;
+}
+
+/*HEADER STYLES =================================*/
+header {
+	background-color: #515150;
+	color: #ffffff;
+	display: flex; /* Flexbox for horizontal alignment */
+  justify-content: space-between; /* Space between site title and navigation */
+  align-items: center; /* Center items vertically */
+}
+
+a {
+	color: #ffffff;
+}
+a:hover {
+	color: red;
+}
+a:visited {
+	color: forestgreen;
+}
+
+/*navigation ---------------------*/
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+	font-size: 14px
+}
+
+nav li{
+  display: inline-block;
+  margin-right: 50px;
+}
+
+/*TExT STYLES ======================================*/
+html {
+	font-size: 20px; /* base font size */
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	font-size: 3rem; /* rem is times the base font size*/
+	font-size: 40px; /* px is pixels in height */
+	font-family: "Raleway", serif;
+	font-weight: 900;
+}
+h2 {
+	font-size: 2rem;
+	font-size: 26px;
+}
+figcaption {
+	font-size: 12px;
+	text-align: right;
+}
+
+footer {
+	color: green;
+	font-size: 14px;
+	text-align: center;
+}
+
+footer p {
+	text-align: right;
+}
+footer figure{
+	width: 50px;
+}
+
+footer {
+  display: grid; /* Enable grid container for the footer */
+  grid-template-columns: auto 1fr; /* Define two columns: auto for image, 1fr for text */
+  align-items: center; /* Vertically align items in the center */
+  column-gap: 20px; /* Add spacing between the columns */
+}
+
+footer figure {
+  margin: 0; /* Remove default figure margins */
+}
+
+footer figure img {
+  display: block; /* Prevent any extra spacing below the inline image */
+  max-width: 100px; /* Adjust as needed */
+  height: auto;
+}
+
+footer p {
+  margin: 0; /* Remove default paragraph margins */
+}
+
+
+
+
+
+
+
+
+
